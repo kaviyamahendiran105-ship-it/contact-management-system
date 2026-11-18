@@ -4,6 +4,22 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+## Email setup
+
+Email buttons open Gmail's compose screen immediately with the contact's email address filled in. The message is sent by Gmail when you press Gmail's own **Send** button. No in-app email popup or AI bot is involved. The existing Resend settings remain available for the legacy `/api/send-email` endpoint.
+
+Run the API in one terminal:
+
+```text
+npm run server
+```
+
+Run React in another terminal:
+
+```text
+npm start
+```
+
 In the project directory, you can run:
 
 ### `npm start`
